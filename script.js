@@ -27,3 +27,13 @@ fetch("products.json")
                 `
             })
         })).catch((error) => console.log(error));
+
+// Route to all products
+const viewAllProducts = document.getElementById("view-products")
+
+
+if (viewAllProducts) {
+    viewAllProducts.addEventListener('click', () => {
+        window.location.href = "products.html"
+    })
+}

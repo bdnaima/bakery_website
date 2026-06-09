@@ -49,6 +49,10 @@ footer {
   margin: 0;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -195,6 +199,13 @@ button {
   padding: 1rem;
 }
 
+.fa-mortar-pestle,
+.fa-cake-candles,
+.fa-heart,
+.fa-leaf {
+  color: var(--coral);
+}
+
 /* ===========================
    Products Page
 =========================== */
@@ -234,6 +245,7 @@ button {
   color: white;
   padding: 2rem;
   border-radius: 20px;
+  margin-top: 2rem;
 }
 
 .contact-form {
