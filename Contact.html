@@ -2,27 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
     <title>Contact</title>
   </head>
+
   <body>
+    <nav class="navbar">
+      <h1>Munamii Cakery</h1>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+
+        <a href="about.html">About</a>
+
+        <a href="products.html">Products</a>
+
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+
     <main class="contact-page">
-      <h2>Contact Us</h2>
+      <section class="contact-container">
+        <div class="contact-info">
+          <h2>Let's Get in Touch!</h2>
 
-      <p>We'd love to hear from you.</p>
+          <p>
+            We'd love to hear from you. Whether you have a question or simply
+            want to say hello.
+          </p>
 
-      <form>
-        <label>Name</label>
-        <input type="text" required />
+          <p>Email</p>
+          <p>hello@munamiicakery.com</p>
 
-        <label>Email</label>
-        <input type="email" required />
+          <p>Phone</p>
+          <p>+1 (555) 123-4567</p>
 
-        <label>Message</label>
-        <textarea rows="6"></textarea>
+          <p>Address</p>
+          <p>123 Sweet Street</p>
+        </div>
 
-        <button type="submit">Send Message</button>
-      </form>
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+
+          <form>
+            <input type="text" placeholder="Your Name" required />
+
+            <input type="email" placeholder="Email Address" required />
+
+            <input type="text" placeholder="Subject" />
+
+            <textarea rows="7" placeholder="Message"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <a href="#">Instagram</a>
+
+      <a href="#">Facebook</a>
+
+      <a href="#">Email</a>
+    </footer>
   </body>
 </html>

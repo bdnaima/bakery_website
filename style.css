@@ -1,3 +1,7 @@
+/* ===========================
+   Global Styles
+=========================== */
+
 :root {
   --mint: #91ae9c;
   --cream: #f9efdf;
@@ -27,7 +31,9 @@ footer {
   padding: 1rem;
 }
 
-/* Navbar */
+/* ===========================
+   Navbar
+=========================== */
 
 .navbar {
   display: flex;
@@ -54,7 +60,23 @@ footer {
   font-weight: 400;
 }
 
-/* Hero section */
+/* ===========================
+   Buttons
+=========================== */
+
+button {
+  background: var(--coral);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 24px;
+  cursor: pointer;
+  max-width: 12rem;
+}
+
+/* ===========================
+   Home Page
+=========================== */
 .hero {
   background-image: url("images/hero_img.webp");
   display: flex;
@@ -82,17 +104,6 @@ footer {
   height: auto;
 }
 
-button {
-  background: var(--coral);
-  color: white;
-  border: none;
-  border-radius: 30px;
-  padding: 12px 24px;
-  cursor: pointer;
-  max-width: 12rem;
-}
-
-/* Main content */
 .content h2 {
   text-align: center;
 }
@@ -133,16 +144,131 @@ button {
   text-align: center;
 }
 
-/* About Page */
-.about-preview {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  max-width: 1200px;
-  margin: 5rem auto;
+/* ===========================
+   About Page
+=========================== */
+.about-page {
+  padding: 4rem 3rem;
 }
 
-/* Footer Section */
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+
+  margin-bottom: 5rem;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.small-title {
+  color: var(--coral);
+  font-weight: 600;
+}
+
+.about-text h2 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.feature {
+  padding: 1rem;
+}
+
+/* ===========================
+   Products Page
+=========================== */
+.products-page {
+  padding: 3rem;
+}
+
+.products-page h2 {
+  text-align: center;
+  margin: 4rem 0 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+/* ===========================
+   Contact Page
+=========================== */
+.contact-page {
+  padding: 3rem;
+}
+
+.contact-container {
+  display: flex;
+
+  gap: 4rem;
+
+  align-items: flex-start;
+}
+
+.contact-info {
+  flex: 1;
+
+  background: var(--mint);
+
+  color: white;
+
+  padding: 2rem;
+
+  border-radius: 20px;
+}
+
+.contact-form {
+  flex: 2;
+}
+
+.contact-form form {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+
+  border-radius: 12px;
+
+  border: 1px solid #ddd;
+
+  font-family: inherit;
+}
+
+.contact-form button {
+  align-self: flex-start;
+}
+
+/* ===========================
+   Footer
+=========================== */
 footer {
   background: var(--mint);
   color: white;
@@ -157,7 +283,9 @@ footer a {
   text-decoration: none;
 }
 
-/* Media queries */
+/* ===========================
+   Media Queries
+=========================== */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -175,5 +303,18 @@ footer a {
   .banner img {
     width: 100%;
     max-width: 350px;
+  }
+
+  .about-section,
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .products-page {
+    padding: 2rem 1rem;
   }
 }
