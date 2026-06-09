@@ -1,0 +1,87 @@
+{
+  "cupcakes": [
+    {
+      "name": "Chocolate Bliss",
+      "price": 3.5,
+      "image": "images/choco_img.jpg"
+    },
+    {
+      "name": "Red Velvet",
+      "price": 3.5,
+      "image": "images/redVelvet_img.jpg"
+    },
+    {
+      "name": "Vanilla Dream",
+      "price": 3.5,
+      "image": "images/vanilla_img.jpg"
+    },
+    {
+      "name": "Mint Delight",
+      "price": 3.5,
+      "image": "images/mint_img.jpg"
+    },
+    {
+      "name": "Blue Madness",
+      "price": 3.5,
+      "image": "images/blueCupcake_img.jpg"
+    },
+    {
+      "name": "Nutty Chocolate",
+      "price": 3.5,
+      "image": "images/chocoDelight_img.jpg"
+    },
+    {
+      "name": "Berry Surprice",
+      "price": 3.5,
+      "image": "images/berry_img.jpg"
+    },
+    {
+      "name": "Vanilla Dream",
+      "price": 3.5,
+      "image": "images/vanillaDream_img.png"
+    }
+  ],
+
+  "weddingCakes": [
+    {
+      "name": "Purple Elegance",
+      "price": 150,
+      "image": "images/elegance_img.jpg"
+    },
+    {
+      "name": "Vintage Flowers",
+      "price": 170,
+      "image": "images/vintage_img.jpg"
+    },
+    {
+      "name": "Fruity Love",
+      "price": 180,
+      "image": "images/fruity_img.jpg"
+    },
+    {
+      "name": "Floral Fantasy",
+      "price": 180,
+      "image": "images/floral_img.jpg"
+    },
+    {
+      "name": "Berries World",
+      "price": 160,
+      "image": "images/berries_img.jpg"
+    },
+    {
+      "name": "Spring Air",
+      "price": 180,
+      "image": "images/spring_img.jpg"
+    },
+    {
+      "name": "Chocolate Bliss",
+      "price": 130,
+      "image": "images/chocolate_img.jpg"
+    },
+    {
+      "name": "Rose White",
+      "price": 150,
+      "image": "images/rose_img.jpg"
+    }
+  ]
+}

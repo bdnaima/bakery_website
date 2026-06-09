@@ -126,7 +126,8 @@ button {
   background: var(--cream);
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: 0.3s;
 }
 .card:hover {
@@ -136,7 +137,6 @@ button {
 .card img {
   width: 100%;
   height: 220px;
-
   object-fit: cover;
 }
 
@@ -180,6 +180,7 @@ button {
 
 .about-text h2 {
   font-size: 3rem;
+  font-family: cursive;
   margin: 1rem 0;
 }
 
@@ -208,8 +209,10 @@ button {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* ===========================
@@ -221,21 +224,15 @@ button {
 
 .contact-container {
   display: flex;
-
   gap: 4rem;
-
   align-items: flex-start;
 }
 
 .contact-info {
   flex: 1;
-
   background: var(--mint);
-
   color: white;
-
   padding: 2rem;
-
   border-radius: 20px;
 }
 
@@ -245,20 +242,15 @@ button {
 
 .contact-form form {
   display: flex;
-
   flex-direction: column;
-
   gap: 1rem;
 }
 
 .contact-form input,
 .contact-form textarea {
   padding: 1rem;
-
   border-radius: 12px;
-
   border: 1px solid #ddd;
-
   font-family: inherit;
 }
 
@@ -316,5 +308,15 @@ footer a {
 
   .products-page {
     padding: 2rem 1rem;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
   }
 }
