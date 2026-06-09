@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Munami Cakery</title>
   </head>
   <body>
@@ -14,29 +18,22 @@
       </div>
       <div class="nav-links">
         <a href="index.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Products.html">Products</a>
-        <a href="Contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
       </div>
     </nav>
 
     <!-- Hero section -->
-    <header class="hero">
-      <div class="hero-text">
-        <h2>Every Day Is A Delicious Adventure</h2>
-
-        <p>
-          Freshly baked cupcakes and elegant cakes handcrafted for every
-          celebration.
-        </p>
-
-        <a href="Products.html">
-          <button>Explore Our Treats</button>
-        </a>
+    <div class="hero">
+      <div class="hero-heading">
+        <h2>Everyday is a delicous adventure</h2>
+        <button>Explore our treats</button>
       </div>
-
-      <img src="images/Cupcake_banner.png" alt="Cupcake" />
-    </header>
+      <div class="hero-image">
+        <img src="images/cupcake_img.webp" alt="Cupcake" />
+      </div>
+    </div>
 
     <!-- Main -->
     <main class="content">
@@ -44,40 +41,30 @@
         <h2>Popular treats</h2>
         <div class="cards">
           <div class="card">
-            <img src="images/Cupcake_banner.png" />
+            <img src="images/choco_img.jpg" />
             <p>Choco</p>
             <p>$3.50</p>
           </div>
           <div class="card">
-            <img src="images/Cupcake_banner.png" />
+            <img src="images/redVelvet_img.jpg" />
             <p>Choco</p>
             <p>$3.50</p>
           </div>
           <div class="card">
-            <img src="images/Cupcake_banner.png" />
+            <img src="images/vanillaDream_img.png" />
             <p>Choco</p>
             <p>$3.50</p>
           </div>
           <div class="card">
-            <img src="images/Cupcake_banner.png" />
+            <img src="images/mint_img.jpg" />
             <p>Choco</p>
             <p>$3.50</p>
           </div>
         </div>
       </section>
-      <button>View all products</button>
-
-      <!-- About section -->
-      <section class="about-preview">
-        <img src="images/bakery.jpg" alt="Bakery" />
-        <div>
-          <h2>Our Story</h2>
-          <p>
-            We bake fresh cupcakes and wedding cakes for every special occasion.
-          </p>
-          <button>Read More</button>
-        </div>
-      </section>
+      <div class="content-button">
+        <button>View all products</button>
+      </div>
     </main>
 
     <!-- footer -->
