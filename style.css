@@ -278,6 +278,105 @@ button {
 }
 
 /* ===========================
+   Newsletter Section
+=========================== */
+
+.newsletter {
+  max-width: 720px;
+  margin: 48px auto;
+  padding: 2rem 1.25rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.newsletter::before {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 4px;
+  background: #dba7a7;
+  margin: 0 auto 12px;
+  border-radius: 3px;
+}
+
+.newsletter h3 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+}
+
+.newsletter form {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.newsletter input {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 320px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.newsletter button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  border: none;
+  background: var(--coral);
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  opacity: 0.95;
+}
+
+/* ===========================
+  Modal
+=========================== */
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal-content img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+#close-modal {
+  cursor: pointer;
+  float: right;
+  font-size: 1.5rem;
+}
+
+/* ===========================
    Footer
 =========================== */
 footer {
@@ -306,14 +405,34 @@ footer a {
     margin-top: 1rem;
   }
 
-  .banner {
+  .hero {
     flex-direction: column;
+    padding: 2rem 1rem;
     text-align: center;
   }
 
-  .banner img {
+  .hero-heading {
+    max-width: 100%;
+    padding: 0;
+    justify-content: flex-end;
+  }
+
+  .hero-heading h2 {
+    font-size: 1.6rem;
+    max-width: 100%;
+    color: var(--cream);
+  }
+
+  .hero-image img {
+    max-width: 320px;
+    margin-top: 1rem;
+  }
+
+  /* make the hero button more usable on narrow screens */
+  .hero-heading button {
     width: 100%;
-    max-width: 350px;
+    max-width: 320px;
+    margin: 0 auto;
   }
 
   .about-section,

@@ -3,42 +3,50 @@
     {
       "name": "Chocolate Bliss",
       "price": 3.5,
-      "image": "images/choco_img.jpg"
+      "image": "images/choco_img.jpg",
+      "description": "Rich chocolate sponge with chocolate buttercream."
     },
     {
       "name": "Red Velvet",
       "price": 3.5,
-      "image": "images/redVelvet_img.jpg"
+      "image": "images/redVelvet_img.jpg",
+      "description": "Classic red velvet cake with cream cheese frosting."
     },
     {
       "name": "Vanilla Dream",
       "price": 3.5,
-      "image": "images/vanilla_img.jpg"
+      "image": "images/vanilla_img.jpg",
+      "description": "Light and fluffy vanilla cupcake with vanilla buttercream."
     },
     {
       "name": "Mint Delight",
       "price": 3.5,
-      "image": "images/mint_img.jpg"
+      "image": "images/mint_img.jpg",
+      "description": "Refreshing mint cupcake with mint buttercream."
     },
     {
       "name": "Blue Madness",
       "price": 3.5,
-      "image": "images/blueCupcake_img.jpg"
+      "image": "images/blueCupcake_img.jpg",
+      "description": "Vibrant blue cupcake with blueberry frosting."
     },
     {
       "name": "Nutty Chocolate",
       "price": 3.5,
-      "image": "images/chocoDelight_img.jpg"
+      "image": "images/chocoDelight_img.jpg",
+      "description": "Chocolate cupcake with a hint of hazelnut."
     },
     {
-      "name": "Berry Surprice",
+      "name": "Berry Surprise",
       "price": 3.5,
-      "image": "images/berry_img.jpg"
+      "image": "images/berry_img.jpg",
+      "description": "Mixed berry cupcake with berry frosting."
     },
     {
       "name": "Vanilla Dream",
       "price": 3.5,
-      "image": "images/vanillaDream_img.png"
+      "image": "images/vanillaDream_img.png",
+      "description": "Light and fluffy vanilla cupcake with vanilla buttercream."
     }
   ],
 
@@ -46,42 +54,50 @@
     {
       "name": "Purple Elegance",
       "price": 150,
-      "image": "images/elegance_img.jpg"
+      "image": "images/elegance_img.jpg",
+      "description": "A stunning purple-themed wedding cake."
     },
     {
       "name": "Vintage Flowers",
       "price": 170,
-      "image": "images/vintage_img.jpg"
+      "image": "images/vintage_img.jpg",
+      "description": "A beautiful wedding cake adorned with vintage flowers."
     },
     {
       "name": "Fruity Love",
       "price": 180,
-      "image": "images/fruity_img.jpg"
+      "image": "images/fruity_img.jpg",
+      "description": "A delightful wedding cake topped with fresh fruits."
     },
     {
       "name": "Floral Fantasy",
       "price": 180,
-      "image": "images/floral_img.jpg"
+      "image": "images/floral_img.jpg",
+      "description": "A romantic wedding cake adorned with delicate floral decorations."
     },
     {
       "name": "Berries World",
       "price": 160,
-      "image": "images/berries_img.jpg"
+      "image": "images/berries_img.jpg",
+      "description": "A delightful wedding cake featuring a variety of fresh berries."
     },
     {
       "name": "Spring Air",
       "price": 180,
-      "image": "images/spring_img.jpg"
+      "image": "images/spring_img.jpg",
+      "description": "A light and airy wedding cake with spring-themed decorations."
     },
     {
       "name": "Chocolate Bliss",
       "price": 130,
-      "image": "images/chocolate_img.jpg"
+      "image": "images/chocolate_img.jpg",
+      "description": "A rich chocolate wedding cake with chocolate ganache."
     },
     {
       "name": "Rose White",
       "price": 150,
-      "image": "images/rose_img.jpg"
+      "image": "images/rose_img.jpg",
+      "description": "A classic white wedding cake adorned with delicate roses."
     }
   ]
 }
