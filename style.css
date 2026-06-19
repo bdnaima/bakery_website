@@ -252,12 +252,11 @@ button {
 
 .contact-container {
   display: flex;
+  justify-content: center;
   gap: 4rem;
-  align-items: flex-start;
 }
 
 .contact-info {
-  flex: 1;
   background: var(--mint);
   color: white;
   padding: 2rem;
@@ -266,7 +265,7 @@ button {
 }
 
 .contact-form {
-  flex: 2;
+  width: 30rem;
 }
 
 .contact-form form {
@@ -464,6 +463,11 @@ footer a {
 
   .contact-container {
     align-items: normal;
+  }
+
+  .contact.info,
+  .contact-form {
+    width: 100%;
   }
 }
 
