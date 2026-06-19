@@ -257,6 +257,7 @@ button {
 }
 
 .contact-info {
+  width: 40rem;
   background: var(--mint);
   color: white;
   padding: 2rem;
